@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   ws:
-    specifier: ^8.14.2
+    specifier: ^8.16.0
     version: 8.16.0
 
 devDependencies:
@@ -14,19 +14,19 @@ devDependencies:
     specifier: ^5.0.0
     version: 5.0.0(eslint@8.56.0)(typescript@5.3.3)
   '@types/node':
-    specifier: ^20.10.5
+    specifier: ^20.10.6
     version: 20.10.6
   '@types/node-fetch':
-    specifier: ^2.6.9
+    specifier: ^2.6.10
     version: 2.6.10
   '@types/ws':
     specifier: ^8.5.10
     version: 8.5.10
   '@typescript-eslint/eslint-plugin':
-    specifier: ^6.15.0
+    specifier: ^6.17.0
     version: 6.17.0(@typescript-eslint/parser@6.17.0)(eslint@8.56.0)(typescript@5.3.3)
   '@typescript-eslint/parser':
-    specifier: ^6.15.0
+    specifier: ^6.17.0
     version: 6.17.0(eslint@8.56.0)(typescript@5.3.3)
   eslint:
     specifier: ^8.56.0
@@ -35,7 +35,7 @@ devDependencies:
     specifier: ^8.0.1
     version: 8.0.1(typescript@5.3.3)
   typedoc:
-    specifier: ^0.25.4
+    specifier: ^0.25.6
     version: 0.25.6(typescript@5.3.3)
   typescript:
     specifier: ^5.3.3
