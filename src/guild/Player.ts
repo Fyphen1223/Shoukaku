@@ -302,7 +302,9 @@ export class Player extends EventEmitter {
      */
     public async playTrack(playable: PlayOptions): Promise<void> {
         const playerOptions: UpdatePlayerOptions = {
-            encodedTrack: playable.track
+            track: {
+                encoded: playable.track
+            }
         };
         if (playable.options) {
             const { pause, startTime, endTime, volume } = playable.options;

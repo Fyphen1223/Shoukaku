@@ -116,6 +116,7 @@ export interface LavalinkPlayer {
 }
 
 export interface UpdatePlayerOptions {
+    track?: any,
     encodedTrack?: string|null;
     identifier?: string;
     position?: number;

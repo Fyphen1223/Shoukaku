@@ -34,11 +34,11 @@
     "node": ">=18.0.0",
     "npm": ">=7.0.0"
   },
-  "author": "Saya",
+  "author": "Fyphen",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shipgirlproject/Shoukaku.git"
+    "url": "https://github.com/Fyphen1223/Shoukaku.git"
   },
   "dependencies": {
     "ws": "^8.14.2"
