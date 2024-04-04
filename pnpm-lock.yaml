@@ -59,26 +59,11 @@ packages:
     resolution: {integrity: sha512-q+epW0trjVUUHboliPb4UF9g2msf+w61b32tAkFEwL/IwP0DQWgbCMM0Hbe3e3WXSKz5VcUXbzJQgy8Hkra/Lg==}
     dependencies:
       tunnel: 0.0.6
-      undici: 5.28.2
+      undici: 5.28.4
     dev: true
 
   /@augu/eslint-config@5.0.0(eslint@8.56.0)(typescript@5.3.3):
     resolution: {integrity: sha512-4sdtBpfdvaydn/A/T60+dRm/S/WiKUcJiukNQ8G/fpTXsM8thGf2TS/S2R5KLx6pjLSCcEhRYaKjwUtDUj1cyw==}
-    peerDependenciesMeta:
-      '@typescript-eslint/eslint-plugin':
-        optional: true
-      '@typescript-eslint/parser':
-        optional: true
-      eslint-config-prettier:
-        optional: true
-      eslint-plugin-antfu:
-        optional: true
-      eslint-plugin-perfectionist:
-        optional: true
-      eslint-plugin-vue:
-        optional: true
-      vue-eslint-parser:
-        optional: true
     dependencies:
       '@actions/core': 1.10.1
       '@noelware/utils': 2.4.0
@@ -2180,8 +2165,8 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
-  /undici@5.28.2:
-    resolution: {integrity: sha512-wh1pHJHnUeQV5Xa8/kyQhO7WFa8M34l026L5P/+2TYiakvGy5Rdc8jWZVyG7ieht/0WgJLEd3kcU5gKx+6GC8w==}
+  /undici@5.28.4:
+    resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.1.0
